@@ -21,3 +21,19 @@ This is the code for paper FedCL: Federated Contrastive Learning for Multi-cente
 |mu|the mu parameter for Contrastive loss.|
 |temperature|the temperature parameter for contrastive loss.|
 |out_dim|the output dimension for the projection layer.|
+## Datasets
+You can download the dataset for Task 1: Skin disease classification in [here](https://challenge.isic-archive.com/data/#2018) and Task 2: COVID-19 detection in [here](https://www.kaggle.com/datasets/praveengovi/coronahack-chest-xraydataset).
+## Usage
+Here is an example to run the model FedCL.
+```
+python train_main.py --model=densenet121 \
+  --batch_size=8 \
+  --base_lr=1e-4 \
+  --local_ep=1 \
+  --num_users=1 \
+  --rounds=200 \
+  --num_workers=8 \
+  --mu=1 \
+  --temperature=0.5
+```
+## Citation
