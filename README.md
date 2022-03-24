@@ -10,7 +10,7 @@ This is the code for paper FedCL: Federated Contrastive Learning for Multi-cente
 + torchvision >= 0.8.2
 ## Parameters
 |Parameter|Description|
-|----|----|
+|:----:|:----|
 |model|neural network used in training.|
 |batch_size|batch_size per gpu.|
 |drop_rate|dropout rate.|
@@ -37,6 +37,6 @@ python train_main.py --model=densenet121 \
   --rounds=200 \
   --num_workers=8 \
   --mu=1 \
-  --temperature=0.5
+  --temperature=0.5 \
 ```
 ## Citation
