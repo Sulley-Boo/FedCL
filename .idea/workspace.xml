@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1291ad71-a6c7-4889-80f3-ad66ad4bad9e" name="Default Changelist" comment="Commit code..." />
+    <list default="true" id="1291ad71-a6c7-4889-80f3-ad66ad4bad9e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,11 +14,7 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="ProjectId" id="1vqPnBT5LJvYOB6qxCAOwGnI2UF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +29,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,6 +37,28 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.train_Single">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FedModel" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train_FedAvg (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FedModel" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +153,7 @@
         <item itemvalue="Python.train_FedAvg (1)" />
         <item itemvalue="Python.train_FedProx" />
         <item itemvalue="Python.train_main" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -198,63 +202,19 @@
       <workItem from="1640766220391" duration="7192000" />
       <workItem from="1640838520988" duration="3310000" />
       <workItem from="1647999978406" duration="661000" />
-      <workItem from="1648085221335" duration="601000" />
-      <workItem from="1648086261942" duration="2698000" />
+      <workItem from="1648085221335" duration="1714000" />
     </task>
-    <task id="LOCAL-00001" summary="Commit code...">
-      <created>1648090674505</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1648090674505</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit code..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit code..." />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1648090784053">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2660" y="181" key="FileChooserDialogImpl" timestamp="1648086258774">
+      <screen x="1920" y="-125" width="1920" height="1160" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1648090784053" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1648086379788">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1648086379788" />
-    <state x="2660" y="181" key="FileChooserDialogImpl/0.0.1920.1040/1920.-125.1920.1160@1920.-125.1920.1160" timestamp="1640766294093" />
-    <state x="832" y="417" key="Github.ShareDialog" timestamp="1648090743662">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="832" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1648090743662" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1639966474883" />
+    <state x="2660" y="181" key="FileChooserDialogImpl/0.0.1920.1040/1920.-125.1920.1160@1920.-125.1920.1160" timestamp="1648086258774" />
     <state width="1157" height="281" key="GridCell.Tab.0.bottom" timestamp="1640858463028">
       <screen x="1920" y="-125" width="1920" height="1160" />
     </state>
@@ -275,22 +235,6 @@
     </state>
     <state width="1161" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1640062119073" />
     <state width="1157" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-125.1920.1160@1920.-125.1920.1160" timestamp="1640858463028" />
-    <state x="811" y="221" key="RollbackChangesDialog" timestamp="1648090581924">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="811" y="221" key="RollbackChangesDialog/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1648090581924" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1648090422353">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1648090422353" />
-    <state x="806" y="433" key="VCS.ChangelistChooser" timestamp="1648090631356">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="806" y="433" key="VCS.ChangelistChooser/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1648090631356" />
-    <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648090446413">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="753" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-125.1920.1160@0.0.1920.1040" timestamp="1648090446413" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FedModel$main.coverage" NAME="main Coverage Results" MODIFIED="1630999660029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
