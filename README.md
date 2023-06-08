@@ -45,7 +45,9 @@ Please cite our paper if you find this code useful for your research.
 @article{Wu2023FedCLFC,
   title={FedCL: Federated Contrastive Learning for Multi-center Medical Image Classification},
   author={Zhenbing Liu and Fengfeng Wu and Yumeng Wang and Mengyu Yang and Xipeng Pan},
-  journal={Pattern Recognition},
-  year={2023}
+  journal={Pattern Recognit.},
+  volume={143},
+  year={2023},
+  pages={109739}
 }
 ```
