@@ -96,14 +96,10 @@ if __name__ == '__main__':
                                                 transforms.ToTensor(),
                                                 normalize,
                                             ])))
-    # train_dataset, _ = torch.utils.data.random_split(train_dataset, [17503, 2500])
 
     dict_users = split(train_dataset, args.num_users)
-    # net_glob = ModelFedCon(out_dim=args.out_dim, n_classes=7)
     net_glob = DenseNet121(out_dim=args.out_dim, out_size=3, drop_rate=args.drop_rate)
     net_glob = net_glob.cuda()
-    # if len(args.gpu.split(',')) > 1:
-    #     net_glob = torch.nn.DataParallel(net_glob, device_ids=[0, 1])
 
     net_glob.train()
     w_glob = net_glob.state_dict()
