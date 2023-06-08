@@ -42,10 +42,8 @@ class LocalUpdate(object):
         for param_group in self.optimizer.param_groups:
             param_group['lr'] = self.base_lr
 
-        # loss_fn = losses.LabelSmoothingCrossEntropy()
         criterion = torch.nn.CrossEntropyLoss().cuda()
 
-        #计算两个张量之间的相似度
         cos = torch.nn.CosineSimilarity(dim=-1)
         pdist = torch.nn.PairwiseDistance(2)
 
@@ -91,9 +89,6 @@ class LocalUpdate(object):
                 loss1 = criterion(outputs, label_batch)
                 loss_total = loss1 + loss2
 
-
-                # loss_classification = loss_fn(outputs, label_batch.long()) + loss_fn(aug_outputs,label_batch.long())
-
                 loss = loss_total
                 self.optimizer.zero_grad()
 
@@ -107,6 +102,4 @@ class LocalUpdate(object):
             with torch.no_grad():
                 epoch_loss.append(np.array(batch_loss).mean())
             print(epoch_loss)
-        # with torch.no_grad():
-        #     self.confuse_matrix = self.confuse_matrix / (1.0 * args.local_ep * iter_max)
         return net.state_dict(), sum(epoch_loss) / len(epoch_loss), copy.deepcopy(self.optimizer.state_dict())
